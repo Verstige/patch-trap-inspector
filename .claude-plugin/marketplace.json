@@ -1,0 +1,19 @@
+{
+  "name": "patch-trap-inspector",
+  "description": "Inspect find-and-replace edits before they corrupt code. The workflow pitfalls of the patch tool -- fuzzy matches, replace_all, template literals -- and byte-level recovery steps.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Inspect find-and-replace edits before they corrupt code. The workflow pitfalls of the patch tool -- fuzzy matches, replace_all, template literals -- and byte-level recovery steps.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "patch-trap-inspector",
+      "source": "./plugins/patch-trap-inspector",
+      "description": "Inspect find-and-replace edits before they corrupt code. The workflow pitfalls of the patch tool -- fuzzy matches, replace_all, template literals -- and byte-level recovery steps."
+    }
+  ]
+}
